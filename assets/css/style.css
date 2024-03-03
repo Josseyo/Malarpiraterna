@@ -1,5 +1,5 @@
-/* Google. fonts import */
-@import  url ('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Protest+Revolution&display=swap')
+/* Google fonts import */
+@import  url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Protest+Revolution&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -9,15 +9,22 @@
 }
 
 /* General styles */
-body {
+body { 
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
+h1 {
+    font-family: 'Protest Revolution', sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+}
 
 /* Header */
 header {
@@ -33,6 +40,5 @@ main {
 
 /* Footer */
 footer {
-    background-color: green
-    ;
+    background-color: green;
 }
