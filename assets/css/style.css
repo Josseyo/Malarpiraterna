@@ -20,16 +20,43 @@ body {
     font-style: normal;
 }
 
+/* Header */
+header {
+    background-color: darkgreen;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+}
+
+header a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 h1 {
     font-family: 'Protest Revolution', sans-serif;
     font-weight: 400;
     font-style: normal; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
 }
 
-/* Header */
-header {
-    background-color: brown;
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
 }
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #ffffff;
+}
+
 
 /* Main content */
 main {
@@ -40,5 +67,5 @@ main {
 
 /* Footer */
 footer {
-    background-color: green;
+    background-color: brown;
 }
