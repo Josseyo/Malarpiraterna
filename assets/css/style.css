@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #3a3a3a;
+    color: #ffffff;
     font-family: 'Merriweather', serif;
     font-weight: 400;
     font-style: normal;
@@ -22,7 +22,7 @@ body {
 
 /* Header */
 header {
-    background-color: darkgreen;
+    background-color: black;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -35,7 +35,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: #ffffff;
+    color: inherit;
 }
 
 h1 {
@@ -44,7 +44,7 @@ h1 {
     font-style: normal; 
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #ffffff;
+    color: #ffffff
 }
 
 #menu {
@@ -63,11 +63,11 @@ h1 {
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: darkgreen;
+    background-color: black;
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2 px #3a3a3a;
+    box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
 }
@@ -87,29 +87,39 @@ nav {
 
 /* Main content */
 main {
-    background-color: yellow;
+    background-color: rgb(36, 101, 28);
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
 }
 
 /* Footer */
-footer {
-    background-color: brown;
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: darkgreen;
 }
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
     nav {
         display: block;
-        position:relative;
+        position: relative;
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
     }
     #menu {
         display: flex;
-    }   
+    }
     #menu > li {
         padding-left: 1rem;
     }
@@ -122,6 +132,13 @@ footer {
         margin: 0 0.5rem;
     }
 }
+
+/* Main content */
+main{
+    /* Push main content down to accomodate larger header */
+    margin-top: 79px;
+}
+
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover{
