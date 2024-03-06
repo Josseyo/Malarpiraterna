@@ -90,6 +90,7 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
+    background-color: darkgreen;
 }
 /* Hero section */
 #hero {
@@ -105,12 +106,13 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
+    background-color: black;
 }
 
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: darkgreen;
+    color: #ffffff;
 }
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
