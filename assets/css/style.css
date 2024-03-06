@@ -9,7 +9,7 @@
 }
 
 /* General styles */
-body { 
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -44,7 +44,7 @@ h1 {
     font-style: normal; 
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #ffffff
+    color: #ffffff;
 }
 
 #menu {
@@ -87,10 +87,15 @@ nav {
 
 /* Main content */
 main {
-    background-color: rgb(36, 101, 28);
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
+}
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
 }
 
 /* Footer */
@@ -131,12 +136,12 @@ main {
         line-height: 75px;
         margin: 0 0.5rem;
     }
-}
 
-/* Main content */
-main{
-    /* Push main content down to accomodate larger header */
+    /* Main content */
+    main {
+    /* Push main content down to accommodate larger header */
     margin-top: 79px;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
