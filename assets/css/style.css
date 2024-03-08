@@ -9,6 +9,7 @@
 }
 
 /* General styles */
+
 body {
     min-height: 100vh;
     display: flex;
@@ -19,6 +20,7 @@ body {
     font-weight: 400;
     font-style: normal;
 }
+
 
 /* Header */
 header {
@@ -45,6 +47,7 @@ h1 {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #ffffff;
+    padding: 1 0rem;
 }
 
 #menu {
@@ -98,6 +101,7 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/hero-image.webp") no-repeat center center/cover;
+    position: relative;
 }
 
 /* Footer */
@@ -171,5 +175,4 @@ main {
     #menu a:hover{
         border-bottom: 1px solid #ffffff;
     }    
-
-    
+}
