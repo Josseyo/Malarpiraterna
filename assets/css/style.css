@@ -52,6 +52,7 @@ h1 {
     letter-spacing: 4px;
     list-style: none;
 }
+
 #menu > li {
     margin-bottom: 1em;
 }
@@ -114,8 +115,18 @@ main {
     padding: 5%;
     color: #ffffff;
 }
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -139,6 +150,15 @@ main {
         margin: 0 0.5rem;
     }
 
+    /* Gallery page */
+    #photos img {
+        width: 100%;
+        line-height: 1em;
+    }
+    #photos {
+        line-height: 0;
+    }
+        
     /* Main content */
     main {
     /* Push main content down to accommodate larger header */
@@ -151,4 +171,5 @@ main {
     #menu a:hover{
         border-bottom: 1px solid #ffffff;
     }    
-}
+
+    
