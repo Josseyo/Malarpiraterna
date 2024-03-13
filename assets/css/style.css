@@ -21,6 +21,16 @@ body {
     font-style: normal;
 }
 
+h1 {
+    font-family: 'Protest Revolution', sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 1 0rem;
+}
+
 
 /* Header */
 header {
@@ -38,16 +48,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-}
-
-h1 {
-    font-family: 'Protest Revolution', sans-serif;
-    font-weight: 400;
-    font-style: normal; 
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #ffffff;
-    padding: 1 0rem;
 }
 
 #menu {
@@ -89,11 +89,11 @@ nav {
     font-size: 2rem;
 }
 
-/* Main */
+/* Main page*/
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 50px;
     background-color: darkgreen;
 }
 /* Hero section */
@@ -120,16 +120,19 @@ main {
     color:#ffffff
 }
 
-/* Style the content */
+/* Main content */
 #content {
     width: 90%;
     margin: 40px auto;
-    text-align: center;
 }
 #content h2 {
     margin-bottom: 20px;
     text-align: center;
-    font-size: 280%;
+    font-size: 300%;
+} 
+#content p {
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .article {
@@ -141,6 +144,14 @@ main {
     background-color: darkgreen;
     text-align: left;
     justify-content: space-evenly;
+}
+
+/* Gallery page */
+#photos img {
+   width: 100%
+}
+#photos {
+    line-height: 0;
 }
 
 /* Footer */
@@ -192,26 +203,36 @@ main {
         line-height: 75px;
         margin: 0 0.5rem;
     }
-
-    /* Gallery page */
-    #photos img {
-        width: 100%;
-        line-height: 1em;
-    }
-    #photos {
-        line-height: 0;
-    }
         
     /* Main content */
     main {
     /* Push main content down to accommodate larger header */
     margin-top: 79px;
     }
-}
 
+    /* Hero */
+    #cover-text {
+    width: 300px;
+    right: 50 px;
+    }
+
+    /* Gallery */
+    #photos {
+    column-count: 3;
+    }
+}
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover{
         border-bottom: 1px solid #ffffff;
     }    
+    /* Gallery */
+    #photos {
+        column-count: 4;
+    }
+}
+@media  screen and (min-width: 1200px) {
+
+}
+    
 }
