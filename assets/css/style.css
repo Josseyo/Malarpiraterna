@@ -89,7 +89,7 @@ nav {
     font-size: 2rem;
 }
 
-/* Main content */
+/* Main */
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
@@ -118,6 +118,29 @@ main {
 #cover-text>h2
 #cover-text>h3 {
     color:#ffffff
+}
+
+/* Style the content */
+#content {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+}
+#content h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+.article {
+    display: flex;
+    margin-top; 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: darkgreen;
+    text-align: left;
+    justify-content: space-evenly;
 }
 
 /* Footer */
