@@ -25,7 +25,7 @@
       <a href="contact.html">
         <h1 id="logo">Mälarpiraterna</h1>
       </a>
-      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+      <input type="checkbox" id="nav-toggle" name="nav-toggle"/>
       <label for="nav-toggle" class="nav-toggle-label">x</label>
       <nav>
         <ul id="menu">
@@ -38,22 +38,31 @@
 
     <!--Main content-->
     <main>
-      <section id="hero"></section>
+      <section id="signup"></section>
+        <form id="signup-form" method="post" action="https://formdump.codeinstitute.net">
+          <h2>Let's get you sined up</h2>
+          
+          <label for="first_name">First name</label>
+          <input type="text" name="first_name"
+          id="first_name" class="text-input" required>
 
-    <!--Reasons section-->
+          <br>
+          
+          <label for="last_name">Last name</label>
+          <input type="text" name="last_name" id="last_name" class="text-input" required>
 
-      <section id="reasons">
-            <h2>Mälarpiraternas trädgård</h2>
-              <div id="benefits-people">    
-                <h3>For People <i class="fa-solid fa-people"></i></h3>
-                <p>Odla i pallkrage och på land</p>
-            </div>
-            <div id="benefits-bees">
-                <h3>För insekter<i class="fa-solid fa-insect"></i></h3>
-                <p>Odla för bin och fjärilar</p>
-            </div>
+          <br>
+
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email" class="text-input" required>
+          
+          <br>
+          
+          <button type="submit" class="contact-button">Contact us!</button>
+
+        </form>
       </section>
-  </main>
+    </main>
 
   <!--Footer-->
   <footer>
