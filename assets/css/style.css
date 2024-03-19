@@ -1,34 +1,81 @@
 /* Google fonts import */
-@import  url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Protest+Revolution&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-size: 62.5%;
 }
 
 /* General styles */
 
 body {
+    font-family: 'Merriweather', serif;
+    color: whitesmoke;
+    font-size: 1.4rem;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     /* Generic project styles */
     color: #ffffff;
-    font-family: 'Merriweather', serif;
     font-weight: 400;
     font-style: normal;
 }
 
+a {
+    text-decoration: none;
+    font-weight: 400;
+    /*1.6*10=16px*/
+    font-size: 1.6rem;
+    color: whitesmoke;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 1.6rem 0;
+}
+
+/* Mälarpiraten Logo font  */
 h1 {
     font-family: 'Protest Revolution', sans-serif;
     font-weight: 400;
-    font-style: normal; 
+    font-size: 3;
+    font-style: normal;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #ffffff;
     padding: 1 0rem;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 2.4rem;
+}
+
+h3 {
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+}
+
+/*section {
+    padding: 100px 0;
 }
 
 
@@ -45,18 +92,18 @@ header {
     align-items: baseline;
 }
 
-header a {
+/*header a {
     text-decoration: none;
     color: inherit;
-}
+}*/
 
 #menu {
-    font-size: 110%;
+    font-size: 1.8rem;
     letter-spacing: 4px;
     list-style: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -68,7 +115,7 @@ header a {
 nav {
     position: absolute;
     background-color: black;
-    width: 100%;
+    width: 100% 0;
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
@@ -89,105 +136,105 @@ nav {
     font-size: 2rem;
 }
 
-/* Main page*/
+/* Main */
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 50px;
     background-color: darkgreen;
 }
-/* Hero section */
+
+
+/* Hero */
 #hero {
-    height: 600px;
+    height: 450px;
     width: 100%;
     background: url("../images/hero-image.webp") no-repeat center center/cover;
     position: relative;
 }
+
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparennt */
     background-color: rgba(0, 100, 0, 0.454);
-    font-size: 130%;
+
     position: absolute;
     bottom: 30px;
-    width: 70%;
+    width: auto;
     min-height: 200px;
     padding-top: 40px;
-    padding-left: 10px;
+    padding-left: 40px;
 }
 
-#cover-text>h2
-#cover-text>h3 {
-    color:#ffffff
+#cover-text>h2 #cover-text>h3 {
+    color: #ffffff
 }
 
-/* Main content */
-#content {
-    width: 90%;
-    margin: 40px auto;
-}
-#content h2 {
-    margin-bottom: 20px;
-    text-align: center;
-    font-size: 300%;
-} 
-#content p {
+.container p {
     margin-bottom: 20px;
     text-align: center;
 }
 
 .article {
     display: flex;
-    margin-top; 20px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-bottom: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
     background-color: darkgreen;
     text-align: left;
     justify-content: space-evenly;
+    font-size: 100%;
+    row-gap: 115%;
 }
 
 /* Gallery page */
 #photos img {
-   width: 100%
+    width: 100%;
 }
+
 #photos {
     line-height: 0;
 }
 
-/* Form */
+/* Contact form */
 #contact {
-    background-image: url ("..images/contact-image.webp");
-    background-size: cover;
-    background-position: 75%;
-    padding: 20px 10% 0 10%;
-    flex-grow: 1;
+    flex: 1 0 auto;
+    margin-top: 0px;
+    width: 100%;
+    height: 500px;
+    background: url("../images/gallery_green_plant.webp") no-repeat right center
 }
 
+/* Make main contact element take up any surplus space to push footer down */
+
 #contact-form {
-    color: #ffffff;
-    background-color: rgba(0, 100, 0, 0.454);
+    color: whitesmoke;
+    font-size: 1.4rem;
+    background-position: 0%;
     padding: 30px;
 }
 
 .contact-button {
-    margin-top 20px;
+    margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px;
-    font-size: 100%;
+    font-size: 1.4rem;
     background-color: darkgreen;
-    color:#fafafa
+    color: whitesmoke
 }
 
 .text-input {
     background: transparent;
-    color: #fafafa
+    color: whitesmoke;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
+    border: 1px solid whitesmoke;
     border-radius: 2px;
     padding: 0 5px;
 }
+
 /* Footer */
 #social-networks {
     text-align: center;
@@ -223,49 +270,58 @@ main {
         width: fit-content;
         padding-right: 1rem;
     }
+
     #menu {
         display: flex;
     }
-    #menu > li {
-        padding-left: 1rem;
+
+    #menu>li {
+        padding-left: 1.6rem;
     }
+
     .nav-toggle-label {
         display: none;
     }
+
     #logo {
         font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
-        
+
     /* Main content */
     main {
-    /* Push main content down to accommodate larger header */
-    margin-top: 79px;
+        /* Push main content down to accommodate larger header */
+        margin-top: 79px;
     }
 
     /* Hero */
     #cover-text {
-    width: 300px;
-    right: 50 px;
+        width: 300px;
+        left: 50px 0;
     }
 
-    /* Reasons section/articles */
+    /* Articles
+    #article {
+        column-count: 2;
+        column-gap: 5pt;
+    } */
 
 
     /* Gallery */
     #photos {
-    column-count: 3;
+        column-count: 3;
     }
 
     /* Form */
 
     #contact-form {
         max-width: 400px;
-        position:absolute;
+        position: absolute;
         left: 10%;
         top: 150px;
     }
+
     .text-input: :hover {
         border-color: #16c6b;
     }
@@ -275,18 +331,17 @@ main {
         color: #454b1b;
     }
 }
+
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #menu a:hover{
+    #menu a:hover {
         border-bottom: 1px solid #ffffff;
-    }    
+    }
+
     /* Gallery */
     #photos {
         column-count: 4;
     }
 }
-@media  screen and (min-width: 1200px) {
 
-}
-    
-}
+@media screen and (min-width: 1200px) {}
