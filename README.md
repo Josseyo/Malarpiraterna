@@ -1,110 +1,184 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome Josseyo Yoshida,
+![Mälarpirater logo](https://github.com/Josseyo/Malarpiraterna/assets/159940877/3e1833e2-ebb5-497b-a214-6e4cabf5d848)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+**March 19, 2024**
 
 ------
+## Mälarpiraternas Trädgård
+
+A membership site for a gardening community.  The garden of the Pirates of Mälaren can  be seen from Snoilskyvägen in Fredhäll, a strolling street by the water where  many passersby admire the lush garden each season. 
+This  is a  HTML/CSS frontend web application project, based on user experience design, accessibility and responsiveness.
+
+![image](https://github.com/Josseyo/Malarpiraterna/assets/159940877/8793cf30-538d-45b7-b262-092cdf8a83cb)
+
+------
+## Visitor’s goal:
+
+The primary aim of this website is to address common questions  from curious passersby who wish to know more about the garden. Visitors can find information on:
+
+- History Fun-facts 
+- Who is the garden for
+- How can you join
+  
+------
+## Site Objectives
+
+Our site aims to:
+- Serve as an informative platform about Mälarpiraternas Trädgård
+- Inspire urban gardening and foster connections with the garden's community
+- Adhere to accessibility standards through features like contrast and easy navigation
+- Reflect a pirate theme in the logo and a green gardening ambiance in the font, colors, and shapes
+- Ensure ease of exploration and navigation for users
+
+------
+## Web Structure
+
+The website consists of three main pages:
+1. Home
+2. Gallery
+3. Contact
+
+Each page is divided in three components:
+1. Head
+2. Body
+3. Footer
+   
+------
+# Features
+
+## Head
+- Includes essential elements for Google searchability like Title, Meta description, and Meta keywords
+
+## Body:
+
+### Header with nav bar
+The header is the first section of the body.
+The navbar is placed in the header across the web site, to easily navigate from page to page without having to revert back to the previous page via the ‘back’ button.
+
+- Responsive navigation
+- Featured on all three pages
+- Including logo (placed  to the left) 
+- Including links (placed to the right) to: 
+  - Home 
+  - Gallery
+  - Contact/Signup form
+  Active Link is underlined to clearly show the user which page they are on.
+ 
+#### Images of Header with nav bar
+
+Desktop navbar:
+![image](https://github.com/Josseyo/Malarpiraterna/assets/159940877/5e287946-46d6-4f57-9c33-9526c33b4a46)
+
+Mobile navbar 1:
+![image](https://github.com/Josseyo/Malarpiraterna/assets/159940877/1a471270-8d6b-4462-ab9b-d9264f4d9188)
+
+Mobile navbar 2:
+![image](https://github.com/Josseyo/Malarpiraterna/assets/159940877/eca7279d-9ab9-4afb-855a-2c0c86758204)
+
+------
+
+### The Hero image
+The hero image on the hompage shows a purple flower and a bee from the garden. This section introduces the user to Mälarpiraterna garden with an eye catching image 
+with a matching text overlay to grab their attention to the garden’s purpose and its location. 
+
+- Prominent Hero image on the Home page with text overlay for enhanced readability
+- Showcases a captivating view of the garden to engage users
+
+#### Hero image mobile view:
+
+![image](https://github.com/Josseyo/Malarpiraterna/assets/159940877/94ac0ff6-c62e-4d73-a1d1-0380a9f61d9c)
+
+------
+
+### Article
+The article’s section is placed below the Hero section on the home page
+- providing insights into the garden's history, purpose, and benefits
+- providing link to the gallery page
+
+#### Article section Desktop view:
+
+![image](https://github.com/Josseyo/Malarpiraterna/assets/159940877/09c4eb1c-e1a3-4688-a45a-aa7427b4fec6)
+
+#### Article section Mobile view:
+
+
+
+------
+
+## Footer
+The footer is repeated across the website pages and includes links to social media sites for Mälarpiraterna. The links will open to a new tab to allow easy navigation for the user.
+Contact section in the footer is valuable to the user as it gives them the ability to find the contacts on every page of the site and make it easy to connect with Mälarpiraterna
+The background of the footer is black, the same as the header. This keeps the body content together and creates a clear line between surrounding navigation
+
+- Positioned at the bottom of each page with links to social media platforms and contact information
+- Black background for consistency and clear separation from the main content
+
+#### Footer section desktop view:
+
+![image](https://github.com/Josseyo/Malarpiraterna/assets/159940877/5ce9f644-e951-40a8-9925-ab6c7b76a16b)
+
+#### Footer section Mobile view:
+
+![image](https://github.com/Josseyo/Malarpiraterna/assets/159940877/f6176bd2-0491-4ee2-b213-5f740d4c1567)
+
+------
+### The Gallery page
+
+The gallery section is filled with photos from the garden. This section is valuable to the user as they will see an urban garden thriving during the season and encourage the user to consider Mälarpiraternas garden as their form of gardening and join the group
+
+- Features a collection of photos showcasing the garden's beauty and encouraging users to join the gardening community
+
+#### Gallery section desktop view:
+
+![image](https://github.com/Josseyo/Malarpiraterna/assets/159940877/bc3df9e6-919c-4fff-a094-63c99240756a)
+
+#### Gallery section mobile view:
+
+
+------
+
+### The Sign up page
+This page will allow the user to get signed up to Mälarpiraterna to start gardening with the community. The user will be asked to submit their full name and email address to sign up to become a member.
+
+#### Sign-up page desktop view:
+
+![image](https://github.com/Josseyo/Malarpiraterna/assets/159940877/de94684f-b3f4-4abb-a792-1001defda62c)
+
+#### Sign-up page mobile view:
+
+------
+
+### Features Left to Implement
+Farmers calendar to keep track of dates to put different seeds in the ground
+Contact list for trading seeds
+Link library to helpful information 
+
+
+
+
+
 
 ## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+We continually tweak and adjust this website to give the best user experience. Here is the version history:
 
-**September 20 2023:** Update Python version to 3.9.17.
+**Mars 18 2024:** Update 
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+**September 1 2021:** Remove 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+**June 30 2021:** Combined 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+**June 10 2021:** Added
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+**April 7 2021:** Upgraded the template 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+**Anything else….?**
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+I want to tell you this so that I am being completely transparent about the code....but many changes have taken place and I am aware of that there are changes that has not been commented...
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
 ---
 
-Happy coding!
