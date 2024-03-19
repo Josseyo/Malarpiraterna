@@ -139,7 +139,10 @@ The gallery section is filled with photos from the garden. This section is valua
 ------
 
 ### The Sign up page
-This page will allow the user to get signed up to Mälarpiraterna to start gardening with the community. The user will be asked to submit their full name and email address to sign up to become a member.
+This page will allow the user to sign up for membership in Mälarpiraterna's garden. 
+
+- Enables users to register as members by providing their full name and email address
+
 
 #### Sign-up page desktop view:
 
@@ -149,10 +152,90 @@ This page will allow the user to get signed up to Mälarpiraterna to start garde
 
 ------
 
-### Features Left to Implement
-Farmers calendar to keep track of dates to put different seeds in the ground
-Contact list for trading seeds
-Link library to helpful information 
+### Future Implementations
+Planned features include:
+- Farmers calendar for seed planting schedules
+- Contact list for seed trading
+- Link library for additional resources
+
+------
+
+## Testing
+
+The website has undergone rigorous testing to ensure functionality across different browsers and screen sizes. No errors were found in HTML and CSS validation tests...
+
+(....mention in this section how your project looks and works on different browsers and screen sizes.
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+If this section grows too long, you may want to split it off into a separate file and link to it from here....)
+
+------
+
+### Validator Testing
+- HTML
+  - No errors were returned when passing through the official W3C validator
+- CSS
+  - No errors were found when passing through the official (Jigsaw) validator
+ 
+------
+    
+### Unfixed Bugs
+....mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed....
+
+------
+
+## Deployment
+
+Following process has been followed to deploy the project to GitHub pages
+- In the GitHub project repository, go to the Settings tab
+- Under Code and Automation, go to pages
+- Under Build and deployment, choose to deploy from bransch
+- Under branch, select main
+- Then select save
+- The live website can be found here 
+https://josseyo.github.io/Malarpiraterna/
+
+------
+
+## Credits
+Special thanks to individuals who contributed to the development of this website:
+- Mentor Rory Sheridan for valuable guidance
+- Classmate Christina for unwavering support
+- Slackmate Sheryl for positive energy and insights on neurodiversity needs
+- Chrystyna, our class coordinator, for assistance and resources
+
+------
+
+### Sources of information
+This project drew inspiration from various sources including Code Institute's learning materials, online tutorials, .....
+
+------
+
+## Content
+- The text for the Home page was taken from SKB.org https://www.skb.org/vara-bostader/innerstaden/fredhall/malarpirater/
+- Instructions how to align page content in HTML https://www.youtube.com/watch?v=uHyf748qbI8&t=18s
+- The icons in the footer were taken from Font Awesome
+- Google fonts: Logo in Protest Revolution, text in Merriweather
+
+------
+
+### Media
+- All photos used on the web page are taken by the author
+- Tiny jpg has been used to resize the photos to fit the web
+
+------
+
+Thank you for visiting Mälarpiraternas Trädgård! 🌿🌼
+
+
+
+
+
+
+
+
+
+
+
 
 
 
