@@ -25,7 +25,8 @@ body {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
+    text-align: center;
     font-weight: 400;
     /*1.6*10=16px*/
     font-size: 1.6rem;
@@ -43,7 +44,7 @@ p {
 h1 {
     font-family: 'Protest Revolution', sans-serif;
     font-weight: 400;
-    font-size: 3;
+    font-size: 2rem;
     font-style: normal;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -66,7 +67,7 @@ p {
     font-size: 1.6rem;
 }
 
-.row {
+/*.row {
     display: flex;
     justify-content: space-between;
     width: 80%;
@@ -163,20 +164,22 @@ main {
     min-height: 200px;
     padding-top: 40px;
     padding-left: 40px;
+    padding: 40px;
 }
 
-#cover-text>h2 #cover-text>h3 {
+/*#cover-text>h2 #cover-text>h3 {
     color: #ffffff
-}
+} */
 
-.container p {
+/*.container p {
     margin-bottom: 20px;
     text-align: center;
-}
+}*/
 
 .article {
-    display: flex;
-    flex-wrap: wrap;
+    /*display: flex;
+    flex-wrap: wrap; */
+    
     margin-top: 40px;
     margin-left: 20%;
     margin-right: 20%;
@@ -290,7 +293,7 @@ main {
     }
 
     #logo {
-        font-size: 280%;
+        font-size: 200%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
@@ -301,18 +304,17 @@ main {
         margin-top: 79px;
     }
 
-    /* Hero */
-    #cover-text {
+   /* Hero */
+   /* #cover-text {
         width: 300px;
         left: 50px 0;
-    }
+    }*/
 
     /* Articles
     #article {
         column-count: 2;
         column-gap: 5pt;
     } */
-
 
     /* Gallery */
     #photos {
@@ -351,4 +353,4 @@ main {
     }
 }
 
-@media screen and (min-width: 1200px) {}
+/*@media screen and (min-width: 1200px) {}
