@@ -137,7 +137,7 @@ nav {
     font-size: 2rem;
 }
 
-/* Main */
+/* Main*/
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
@@ -145,12 +145,23 @@ main {
     background-color: darkgreen;
 }
 
+/* Main contact*/
+main-contact {
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    
+}
+
+
 
 /* Hero */
 #hero {
     height: 450px;
     width: 100%;
-    background: url("../images/hero-image.webp") no-repeat center center/cover;
+   background: url("../images/hero-image.webp") no-repeat center center/cover;
     position: relative;
 }
 
@@ -202,12 +213,13 @@ main {
 
 /* Contact form */
 #contact {
-    flex: 2 0 auto;
+    flex: 1 0 auto;
 
-    margin-left: 40px;
+    margin-left: auto;
     padding: 80px 80px;
-    width: 80%;
+    width: 100%;
     height: auto;
+   
     background: url("../images/gallery_green_plant.webp") no-repeat right center
 }
 
@@ -216,13 +228,15 @@ main {
 #contact-form {
     color: whitesmoke;
     font-size: 1.6rem;
-    background-color: rgba(228, 198, 4, 0.6);
+    background-color: rgba(245, 217, 5, 0.5);
 
     margin: 5px 0 20px 0;
 
-    width: 300px;
+    width: 400px;
     padding: 15px 32px;
 }
+
+
 
 .contact-button {
     margin-top: 20px;
