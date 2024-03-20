@@ -14,7 +14,7 @@
 body {
     font-family: 'Merriweather', serif;
     color: whitesmoke;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -37,7 +37,7 @@ h1,
 h2,
 h3,
 p {
-    margin: 1.6rem 0;
+    margin: 1.8rem 0;
 }
 
 /* Mälarpiraten Logo font  */
@@ -152,35 +152,33 @@ main-contact {
     margin-top: 50px;
     margin-bottom: 50px;
     position: relative;
-    
+
 }
-
-
 
 /* Hero */
 #hero {
-    height: 450px;
+    height: 500px;
     width: 100%;
-   background: url("../images/hero-image.webp") no-repeat center center/cover;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
     position: relative;
 }
 
+
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparennt */
-    background-color: rgba(0, 100, 0, 0.6);
 
-    position: absolute;
-    bottom: 30px;
-    width: auto;
-    min-height: 200px;
-    padding-top: 40px;
-    padding-left: 40px;
-    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.4);
+
+    width: 100%;
+    min-height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+
 }
 
-/*#cover-text>h2 #cover-text>h3 {
-    color: #ffffff
-} */
 
 /*.container p {
     margin-bottom: 20px;
@@ -188,17 +186,13 @@ main-contact {
 }*/
 
 .article {
-    /*display: flex;
-    flex-wrap: wrap; */
-    
     margin-top: 40px;
     margin-left: 20%;
     margin-right: 20%;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     background-color: darkgreen;
     text-align: left;
     justify-content: space-evenly;
-    font-size: 100%;
     row-gap: 115%;
 }
 
@@ -219,7 +213,7 @@ main-contact {
     padding: 80px 80px;
     width: 100%;
     height: auto;
-   
+
     background: url("../images/gallery_green_plant.webp") no-repeat right center
 }
 
@@ -228,7 +222,7 @@ main-contact {
 #contact-form {
     color: whitesmoke;
     font-size: 1.6rem;
-    background-color: rgba(245, 217, 5, 0.5);
+    background-color: rgba(0, 100, 0, 0.6);
 
     margin: 5px 0 20px 0;
 
@@ -318,8 +312,8 @@ main-contact {
         margin-top: 79px;
     }
 
-   /* Hero */
-   /* #cover-text {
+    /* Hero */
+    /* #cover-text {
         width: 300px;
         left: 50px 0;
     }*/
