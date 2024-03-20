@@ -155,7 +155,7 @@ main {
 
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparennt */
-    background-color: rgba(0, 100, 0, 0.454);
+    background-color: rgba(0, 100, 0, 0.6);
 
     position: absolute;
     bottom: 30px;
@@ -199,10 +199,12 @@ main {
 
 /* Contact form */
 #contact {
-    flex: 1 0 auto;
-    margin-top: 0px;
-    width: 100%;
-    height: 500px;
+    flex: 2 0 auto;
+
+    margin-left: 40px;
+    padding: 80px 80px;
+    width: 80%;
+    height: auto;
     background: url("../images/gallery_green_plant.webp") no-repeat right center
 }
 
@@ -210,9 +212,13 @@ main {
 
 #contact-form {
     color: whitesmoke;
-    font-size: 1.4rem;
-    background-position: 0%;
-    padding: 30px;
+    font-size: 1.6rem;
+    background-color: rgba(228, 198, 4, 0.6);
+
+    margin: 5px 0 20px 0;
+
+    width: 300px;
+    padding: 15px 32px;
 }
 
 .contact-button {
@@ -312,25 +318,26 @@ main {
     #photos {
         column-count: 3;
     }
+}
 
-    /* Form */
+/* Form */
 
-    #contact-form {
+/*#contact-form {
         max-width: 400px;
         position: absolute;
         left: 10%;
         top: 150px;
     }
 
-    .text-input: :hover {
+    .text-input :hover {
         border-color: #16c6b;
     }
 
-    .join-button: :hover {
+    .join-button :hover {
         background-color: fafafa;
         color: #454b1b;
     }
-}
+
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
