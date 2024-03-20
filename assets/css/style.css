@@ -146,14 +146,9 @@ main {
 }
 
 /* Main contact*/
-main-contact {
-    /* Make main element take up any surplus space to push footer down */
-    flex: 1 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    position: relative;
 
-}
+
+
 
 /* Hero */
 #hero {
@@ -179,12 +174,6 @@ main-contact {
 
 }
 
-
-/*.container p {
-    margin-bottom: 20px;
-    text-align: center;
-}*/
-
 .article {
     margin-top: 40px;
     margin-left: 20%;
@@ -207,9 +196,7 @@ main-contact {
 
 /* Contact form */
 #contact {
-    flex: 1 0 auto;
-
-    margin-left: auto;
+    
     padding: 80px 80px;
     width: 100%;
     height: auto;
@@ -219,23 +206,23 @@ main-contact {
 
 /* Make main contact element take up any surplus space to push footer down */
 
-#contact-form {
+/*#contact-form {
     color: whitesmoke;
     font-size: 1.6rem;
     background-color: rgba(0, 100, 0, 0.6);
 
     margin: 5px 0 20px 0;
 
-    width: 400px;
+    width: 375px;
     padding: 15px 32px;
-}
+}*/
 
 
 
 .contact-button {
     margin-top: 20px;
     border-radius: 2px;
-    padding: 15px 32px;
+    padding: 10px 20px;
     font-size: 1.4rem;
     background-color: darkgreen;
     color: whitesmoke
@@ -265,7 +252,7 @@ main-contact {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #ffffff;
+    color: whitesmoke;
 }
 
 /* Media query: large or landscape phones (576px and up) */
@@ -274,6 +261,14 @@ main-contact {
         column-count: 2;
         column-gap: 0;
     }
+}
+
+#contact-form {
+    color: whitesmoke;
+    font-size: 1.6rem;
+    background-color: rgba(0, 100, 0, 0.6);
+    margin: 5px 0 20px 0;
+    padding: 10px 20px;
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -332,11 +327,11 @@ main-contact {
 
 /* Form */
 
-/*#contact-form {
-        max-width: 400px;
-        position: absolute;
-        left: 10%;
-        top: 150px;
+#contact-form {
+        max-width: 500px;
+        position: relative;
+        left: 10px;
+        top: 10px;
     }
 
     .text-input :hover {
