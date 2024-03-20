@@ -40,7 +40,7 @@ p {
     margin: 1.8rem 0;
 }
 
-/* Mälarpiraten Logo font  */
+/* Mälarpiraten Logo font */
 h1 {
     font-family: 'Protest Revolution', sans-serif;
     font-weight: 400;
@@ -93,10 +93,10 @@ header {
     align-items: baseline;
 }
 
-/*header a {
+header a {
     text-decoration: none;
     color: inherit;
-}*/
+}
 
 #menu {
     font-size: 1.8rem;
