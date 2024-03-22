@@ -160,15 +160,16 @@ main {
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparennt */
 
-    background-color: rgba(0, 0, 0, 0.4);
-
+    background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     min-height: 100px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 30rem;
     padding-top: 5em;
     padding-bottom: 5em;
     text-align: center;
+    position: absolute;
 
 }
 #article {
