@@ -49,7 +49,7 @@ h1 {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #ffffff;
-    padding: 1 0rem;
+    padding: 1rem 0rem;
 }
 
 h2 {
@@ -116,8 +116,8 @@ header a {
 nav {
     position: absolute;
     background-color: black;
-    width: 100% 0;
-    left: 0;
+    width: 100%;
+    right: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
@@ -322,19 +322,19 @@ main {
     }
 
     .text-input :hover {
-        border-color: #16c6b;
+        border-color: whitesmoke;
     }
 
     .join-button :hover {
-        background-color: fafafa;
-        color: #454b1b;
+        background-color: whitesmoke;
+        color: #b2b88d;
     }
 
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
-        border-bottom: 1px solid #ffffff;
+        border-bottom: 1px solid whitesmoke;
     }
 
     /* Gallery */
