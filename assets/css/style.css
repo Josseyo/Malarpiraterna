@@ -196,11 +196,12 @@ main {
 
 /* Gallery page */
 #photos img {
-    width: 100%;
+    max-width: 100%;
+    border: 15px solid whitesmoke
 }
 
 #photos {
-    line-height: 0;
+    line-height: 0%;
 }
 
 /* Contact section */
@@ -230,7 +231,7 @@ main {
     border-radius: 2px;
     padding: 10px 20px;
     font-size: 1.4rem;
-    background-color: #f55690;
+    background-color: #f04584;
     color: whitesmoke
 }
 
