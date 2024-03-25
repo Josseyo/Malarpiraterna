@@ -326,7 +326,7 @@ main {
         column-gap: 0;
     }
     #photos img {
-        max-width: 100%;
+        max-width: 80%;
         border: 8px solid whitesmoke
     }
 }
