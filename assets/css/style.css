@@ -47,14 +47,14 @@ h1 {
     font-size: 2rem;
     font-style: normal;
     letter-spacing: 2px;
-    text-transform: uppercase;
     color: #ffffff;
     padding-left: 1rem;
 }
 
 h2 {
-    font-weight: 800;
-    font-size: 2.4rem;
+    font-style: 800;
+    font-size: 2.6rem;
+    letter-spacing: 2px;
 }
 
 h3 {
@@ -165,12 +165,12 @@ main {
     margin-left: auto;
     margin-right: auto;
     margin-top: 20rem;
-
     margin-bottom: 1rem;
     padding-top: 5em;
     padding-bottom: 5em;
     text-align: center;
     position: relative;
+    line-height: 14em;
 
 }
 
@@ -220,7 +220,7 @@ main {
 #contact-form {
     color: whitesmoke;
     font-size: 1.6rem;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.2);
     margin: 1rem 0 1rem 0;
     max-width: 375px;
     padding: 1.5em 3.2em;
@@ -334,9 +334,10 @@ main {
 #contact-form {
     color: whitesmoke;
     font-size: 1.6rem;
-    background-color: rgba(152, 247, 152, 0.6);
+    background-color: rgba(0, 0, 0, 0.2);
     margin-top: 3rem;
-    padding: 10px 20px;
+    padding: 2em 2em;
+    margin-block: 4rem;
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -376,7 +377,7 @@ main {
     }
 
     #article {
-        padding-top: 4em;
+        padding-top: 10em;
     }
     .article {
         margin-top: 0%;
@@ -430,7 +431,7 @@ main {
     }
 
     .article {
-        margin-top: 3rem;
+        margin-top: 2rem;
         margin-left: 25%;
         margin-right: 25%;
         background-color: darkgreen;
@@ -439,6 +440,7 @@ main {
         justify-content: space-evenly;
         row-gap: 115%;
     }
+
 
     /* Gallery */
     #gallery{
