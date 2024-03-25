@@ -212,7 +212,7 @@ main {
     padding: 4em 4em;
     max-width: 100%;
     max-height: 100%;
-    background: url("../images/gallery_3_blomma_signup.png") no-repeat right center
+    background: url("../images/pink-flow.webp") no-repeat right center
 }
 
 /* Make main contact element take up any surplus space to push footer down */
@@ -220,7 +220,7 @@ main {
 #contact-form {
     color: whitesmoke;
     font-size: 1.6rem;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.4);
     margin: 1rem 0 1rem 0;
     max-width: 375px;
     padding: 1.5em 3.2em;
@@ -326,7 +326,7 @@ main {
         column-gap: 0;
     }
     #photos img {
-        max-width: 80%;
+        max-width: 100%;
         border: 8px solid whitesmoke
     }
 }
