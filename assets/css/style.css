@@ -264,8 +264,35 @@ main {
     color: whitesmoke;
 }
 
-/* Media query: Mobbile phones (320px and up) */
+/* Media query: Mobile phones (320px and up) */
 @media screen and (min-width: 320px) {
+
+/* Adust Hero size to Mobile phones */
+#hero {
+    max-height: 50vh;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    /* Final rgba value sets the opacity so it is semi-transparennt */
+
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20rem;
+    margin-bottom: 1rem;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    text-align: center;
+    position: relative;
+    line-height: 14em;
+
+}
+
     #gallery {
         padding-top: 2em;
     }
