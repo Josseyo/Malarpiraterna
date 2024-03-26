@@ -231,6 +231,29 @@ From line 45, column 7; to line 45, column 28
 
 ### Manual testing
 
+#### Responsiveness 
+
+Responsiveness verified on following screen sizes
+
+Desktop - 1600 x 992 px
+Laptop - 1280 x 802 px 
+Tablet - 768 x 1024 px 
+Mobile - 320 x 480 px 
+
+------
+
+### Browsers
+
+Features tested in following browsers:
+
+Chrome - Version 123.0.6312.59 (Officiell version) (x86_64)
+Safari - Version 15.6.1 (17613.3.9.1.16)
+Firefox 
+
+------
+
+#### Feature test protocol
+
 ![manual testing](./assets/docs/image-39.png)
 
 https://docs.google.com/document/d/1GvBAvt2jdHdPX7isx49NbzpCtF8MsiNWt7Qk4x7rd60/edit?usp=sharing
