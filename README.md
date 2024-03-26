@@ -188,6 +188,8 @@ From line 45, column 7; to line 45, column 28
 ------
 ### Manual testing
 
+![manual testing](image-39.png)
+
 https://docs.google.com/document/d/1GvBAvt2jdHdPX7isx49NbzpCtF8MsiNWt7Qk4x7rd60/edit?usp=sharing
 
 ## Deployment
