@@ -162,7 +162,7 @@ This page will allow the user to sign up for membership in Mälarpiraterna's gar
 
 #### Images of Join The Garden page:
 
-![join-the-garden](./assets/docs/imagege-sign-up.png)
+![join-the-garden](./assets/docs/image-sign-up.png)
 
 ------
 
