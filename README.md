@@ -11,8 +11,7 @@ The garden of the Pirates of Mälaren, "Mälarpiraternas Trädgård", is located
 
 This is my PP1 project: A HTML/CSS frontend web application project, based on user experience design, accessibility and responsiveness.
 
-![Responsive views index-home](image-11.png)
-
+![responsive-views-of-website](image-3.png)
 ------
 ## Visitor’s goal:
 
@@ -38,7 +37,7 @@ Our site aims to:
 ### Colors
 The website's color palette intend to harmonize with the site's natural theme and floral imagery. The dark green is employed in the background to provide a solid foundation to complement the vibrant flower photos. Additionally, the use of black and white ensures strong contrast and enhances the readability of the primary content and naviation. Finally, a touch of pink has been reserved for call-to-action and signup button for added emphasis.
 
-![alt text](image-7.png)
+![alt text](./assets/docs/image-7.png)
 
 ### Fonts
 
@@ -53,7 +52,7 @@ The website consists of three main pages:
 2. Gallery
 3. Contact
 
-![wireframes-web](image-30.png)
+![wireframes-web](./assets/docs/image-30.png)
 ------
 # Features
 
@@ -71,7 +70,7 @@ Header
 
 Image of header with responsive navbar:
 
-![header-navbar](image-31.png)
+![header-navbar](./assets/docs/image-31.png)
 
 Footer
 Email in the footer is valuable to the user as it gives them easy access to our email-contact and external social media, throughout the site to make it easy to connect with Mälarpiraterna in our external cannels
@@ -81,13 +80,13 @@ Email in the footer is valuable to the user as it gives them easy access to our 
 
 Image of footer with email and social media links:
 
-![alt text](image-32.png)
+![alt text](./assets/docs/image-32.png)
 
 
 ------
 ## The home page
 
-![homepage](image-36.png)
+![homepage](./assets/docs/image-36.png)
 
 
 ### The Hero image
@@ -98,7 +97,7 @@ with a matching text overlay to grab their attention to the garden’s purpose a
 - Prominent Hero image on the Home page with text overlay for enhanced readability
 - Showcases a captivating view of the garden to engage users
 
-![hero-image](image-16.png)
+![hero-image](./assets/docs/image-16.png)
 
 ------
 
@@ -110,29 +109,31 @@ The primary content is placed below the Hero section on the home page. The text 
 - At the end a link to the gallery page is provided to easily reach the gallery to view photos of the garden
 - The link is underlined to emphasize it is a link
 
-![primary-text](image-21.png)
+![primary-text](./assets/docs/image-21.png)
 
 
 ------
 ## The Gallery
 
-![alt text](image-34.png)
-
 The gallery section is filled with photos from the garden. This section is valuable to the user as they will see an urban garden thriving during the season and encourage the user to consider Mälarpiraternas garden as their form of gardening and join the group
 
 - Features a collection of photos showcasing the garden's beauty and encouraging users to join the gardening community
+
+![gallery-view](image-2.png)
 
 
 ------
 
 ## Join the garden
+
 This page will allow the user to sign up for membership in Mälarpiraterna's garden. 
 
 - Enables users to register as members by providing their full name and email address
 - The text fields are mandatory and form can not be submitted unfilled.
 - The text field for email ensures that the filled text is an email-address 
 
-![join.the-garden](image-33.png)
+![join-the-garden](image-1.png)
+
 ------
 
 ## Future Implementations
@@ -158,19 +159,19 @@ If this section grows too long, you may want to split it off into a separate fil
 #### HTML
   - No errors were returned when passing through the official W3C validator
 
-![html-validation](image-4.png)
+![html-validation](./assets/docs/image-4.png)
 #### CSS
   - No errors were found when passing through the official (Jigsaw) validator
 
-![css-validation](image-5.png)
+![css-validation](./assets/docs/image-5.png)
 
 #### Speedtesting overview
 
-![alt text](image-37.png)
+![alt text](./assets/docs/image-37.png)
 
 ##### Home Speedtesting details
 
-![gallery-speedtesting](image-38.png)
+![gallery-speedtesting](./assets/docs/image-38.png)
 
 ------
     
@@ -179,7 +180,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 - Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed.
 
-![html-validation-warning](image-6.png)
+![html-validation-warning](./assets/docs/image-6.png)
 
 From line 45, column 7; to line 45, column 28
 
@@ -188,7 +189,7 @@ From line 45, column 7; to line 45, column 28
 ------
 ### Manual testing
 
-![manual testing](image-39.png)
+![manual testing](./assets/docs/image-39.png)
 
 https://docs.google.com/document/d/1GvBAvt2jdHdPX7isx49NbzpCtF8MsiNWt7Qk4x7rd60/edit?usp=sharing
 
