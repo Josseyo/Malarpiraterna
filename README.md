@@ -40,25 +40,18 @@ The website's color palette intend to harmonize with the site's natural theme an
 
 ![alt text](image-7.png)
 
-## Fonts
-The google font, Protest Revolution, is used in the h1 logo, to give a hand written text style to match the pirate theme. 
+### Fonts
 
-Merriweater is used for body text and headers to match the organic content
+- The google font, Protest Revolution, is used in the h1 logo, to give a hand written text style to match the pirate theme. 
+- Merriweater is used for body text and headers to match the organic content
 
 
-## Web Structure
+### Web Structure & Wireframes
 
 The website consists of three main pages:
 1. Home
 2. Gallery
 3. Contact
-
-Each page is divided in three components:
-1. Head
-2. Body
-3. Footer
-
-### Wireframes
 
 ![wireframes-web](image-30.png)
 ------
@@ -67,64 +60,63 @@ Each page is divided in three components:
 ## Head
 - Includes essential elements for Google searchability like Title, Meta description, and Meta keywords
 
-## Body:
+## Header & Footer
+Responsive Header and Footer is the first and last section and are visible on each page. All content and services should always be near and clear to make it quick and easy for the user to find and reach what they are looking for. Header and Footer in black and white for optimal contrast and readability. The colors also create consistency and clear separation from the main content and creates a clear line to the surrounding navigation
 
-### Header with nav bar
-![navbar](image-13.png)
 
-### Footer with contact links
-![footer-views](image-26.png)
+Header 
+- Logo designed to match the pirate theme of the garden, placed to the left 
+- Navbar with links to Home, Gallery and Join the Garden, placed to the right
+- Active Link is underlined to clearly show the user which page they are on
 
-The header is the first section of the body.
-The navbar and footer are placed at the top and the bottom on each page across the web site. This to easily navigate from page to page without having to revert back to the previous page via the ‘back’ button.
+Image of header with responsive navbar:
 
-- Responsive navigation
-- Featured on all three pages
-- Including logo (placed  to the left) 
-- Including links (placed to the right) to: 
-  - Home 
-  - Gallery
-  - Contact/Signup form
-  Active Link is underlined to clearly show the user which page they are on.
-  -Footer with link to instagram, X (Twitter) and e-mail
+![header-navbar](image-31.png)
 
- 
+Footer
+Email in the footer is valuable to the user as it gives them easy access to our email-contact and external social media, throughout the site to make it easy to connect with Mälarpiraterna in our external cannels
+
+- Evenly spread out in the footer are inks to our external communication channels; instagram, X (Twitter) and e-mail 
+- The links will open to a new tab to allow easy navigation for the user
+
+Image of footer with email and social media links:
+
+![alt text](image-32.png)
+
+
 ------
+## The home page
+
+![homepage](image-36.png)
+
 
 ### The Hero image
 
-![hero-image](image-16.png)
 The hero image on the hompage shows a purple flower and a bee from the garden. This section introduces the user to Mälarpiraterna garden with an eye catching image 
 with a matching text overlay to grab their attention to the garden’s purpose and its location. 
 
 - Prominent Hero image on the Home page with text overlay for enhanced readability
 - Showcases a captivating view of the garden to engage users
 
+![hero-image](image-16.png)
+
 ------
 
-### Article
+### Primary content
+
+The primary content is placed below the Hero section on the home page. The text is placed in a paragraph with responsive width and adjusted margins for good readability on different screen sizes. The font size and the colors of Whitesmoke text on darkgreen background for a good readability and comfortable color palette for the eyes.
+
+- The text provides information of the garden, such as the gardens history, it's purpose and benefits
+- At the end a link to the gallery page is provided to easily reach the gallery to view photos of the garden
+- The link is underlined to emphasize it is a link
 
 ![primary-text](image-21.png)
-The article’s section is placed below the Hero section on the home page
-- providing insights into the garden's history, purpose, and benefits
-- providing link to the gallery page
+
 
 ------
+## The Gallery
 
-## Footer
-
-![footer](image-23.png)
-The footer is repeated across the website pages and includes links to social media sites for Mälarpiraterna. The links will open to a new tab to allow easy navigation for the user.
-Contact section in the footer is valuable to the user as it gives them the ability to find the contacts on every page of the site and make it easy to connect with Mälarpiraterna
-The background of the footer is black, the same as the header. This keeps the body content together and creates a clear line between surrounding navigation
-
-- Positioned at the bottom of each page with links to social media platforms and contact information
-- Black background for consistency and clear separation from the main content
-
-------
-### The Gallery page
-
-![gallery-views](image-24.png)
+![alt text](image-34.png)
 
 The gallery section is filled with photos from the garden. This section is valuable to the user as they will see an urban garden thriving during the season and encourage the user to consider Mälarpiraternas garden as their form of gardening and join the group
 
@@ -133,21 +125,17 @@ The gallery section is filled with photos from the garden. This section is valua
 
 ------
 
-### The Sign up page
+## Join the garden
 This page will allow the user to sign up for membership in Mälarpiraterna's garden. 
 
 - Enables users to register as members by providing their full name and email address
+- The text fields are mandatory and form can not be submitted unfilled.
+- The text field for email ensures that the filled text is an email-address 
 
-
-#### Sign-up page desktop view:
-
-![image](https://github.com/Josseyo/Malarpiraterna/assets/159940877/de94684f-b3f4-4abb-a792-1001defda62c)
-
-#### Sign-up page mobile view:
-
+![join.the-garden](image-33.png)
 ------
 
-### Future Implementations
+## Future Implementations
 Planned features include:
 - Farmers calendar for seed planting schedules
 - Contact list for seed trading
@@ -166,14 +154,25 @@ If this section grows too long, you may want to split it off into a separate fil
 ------
 
 ### Validator Testing
-- HTML
+
+#### HTML
   - No errors were returned when passing through the official W3C validator
 
 ![html-validation](image-4.png)
-- CSS
+#### CSS
   - No errors were found when passing through the official (Jigsaw) validator
 
-![css-validation](image-5.png)------
+![css-validation](image-5.png)
+
+#### Speedtesting overview
+
+![alt text](image-37.png)
+
+##### Home Speedtesting details
+
+![gallery-speedtesting](image-38.png)
+
+------
     
 ### Unfixed Bugs
 ....mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed....
@@ -187,6 +186,9 @@ From line 45, column 7; to line 45, column 28
 -->↩      <section id="gallery">↩    
 
 ------
+### Manual testing
+
+https://docs.google.com/document/d/1GvBAvt2jdHdPX7isx49NbzpCtF8MsiNWt7Qk4x7rd60/edit?usp=sharing
 
 ## Deployment
 
