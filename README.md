@@ -12,7 +12,9 @@ The garden of the Pirates of Mälaren, "Mälarpiraternas Trädgård", is located
 This is my PP1 project: A HTML/CSS frontend web application project, based on user experience design, accessibility and responsiveness.
 
 ![responsive-views-of-website](./assets/docs/image-responsive-views.png)
+
 ------
+
 ## Visitor’s goal:
 
 The primary aim of this website is to address common questions from curious passersby who wish to know more about the garden and perhaps even join. Visitors can find information on:
@@ -22,6 +24,7 @@ The primary aim of this website is to address common questions from curious pass
 - How can you join
   
 ------
+
 ## Site Objectives
 
 Our site aims to:
@@ -32,6 +35,7 @@ Our site aims to:
 - Ensure ease of exploration and navigation for users
 
 ------
+
 ## Design
 
 ### Colors
@@ -53,7 +57,9 @@ The website consists of three main pages:
 3. Contact
 
 ![wireframes-web](./assets/docs/image-30.png)
+
 ------
+
 # Features
 
 ## Head
@@ -62,31 +68,38 @@ The website consists of three main pages:
 ## Header & Footer
 Responsive Header and Footer is the first and last section and are visible on each page. All content and services should always be near and clear to make it quick and easy for the user to find and reach what they are looking for. Header and Footer in black and white for optimal contrast and readability. The colors also create consistency and clear separation from the main content and creates a clear line to the surrounding navigation
 
-
-Header 
+#### Header 
 - Logo designed to match the pirate theme of the garden, placed to the left 
 - Navbar with links to Home, Gallery and Join the Garden, placed to the right
 - Active Link is underlined to clearly show the user which page they are on
 
-Image of header with responsive navbar:
+------
+
+#### Image of header with responsive navbar:
 
 ![header-navbar](./assets/docs/image-31.png)
 
-Footer
+------
+
+#### Footer
 Email in the footer is valuable to the user as it gives them easy access to our email-contact and external social media, throughout the site to make it easy to connect with Mälarpiraterna in our external cannels
 
 - Evenly spread out in the footer are inks to our external communication channels; instagram, X (Twitter) and e-mail 
 - The links will open to a new tab to allow easy navigation for the user
 
-Image of footer with email and social media links:
+------
+
+#### Image of footer with email and social media links:
 
 ![alt text](./assets/docs/image-32.png)
 
-
 ------
+
 ## The home page
 
 ![homepage](./assets/docs/image-36.png)
+
+------
 
 
 ### The Hero image
@@ -96,6 +109,10 @@ with a matching text overlay to grab their attention to the garden’s purpose a
 
 - Prominent Hero image on the Home page with text overlay for enhanced readability
 - Showcases a captivating view of the garden to engage users
+
+------
+
+#### Image of Hero-image and cover text:
 
 ![hero-image](./assets/docs/image-16.png)
 
@@ -109,18 +126,25 @@ The primary content is placed below the Hero section on the home page. The text 
 - At the end a link to the gallery page is provided to easily reach the gallery to view photos of the garden
 - The link is underlined to emphasize it is a link
 
+------
+
+#### Image of primary text:
+
 ![primary-text](./assets/docs/image-21.png)
 
-
 ------
+
 ## The Gallery
 
 The gallery section is filled with photos from the garden. This section is valuable to the user as they will see an urban garden thriving during the season and encourage the user to consider Mälarpiraternas garden as their form of gardening and join the group
 
 - Features a collection of photos showcasing the garden's beauty and encouraging users to join the gardening community
 
-![gallery-view](./assets/docs/image-gallery.png)
+------
 
+#### Images of gallery page:
+
+![gallery-view](./assets/docs/image-gallery.png)
 
 ------
 
@@ -129,18 +153,26 @@ The gallery section is filled with photos from the garden. This section is valua
 This page will allow the user to sign up for membership in Mälarpiraterna's garden. 
 
 - Enables users to register as members by providing their full name and email address
-- The text fields are mandatory and form can not be submitted unfilled.
+- The text fields are mandatory and form can not be submitted unfilled
 - The text field for email ensures that the filled text is an email-address 
+- The background is darkgreen with a decorative pink flower 
+- The color of the Sign-up button is pink which matches the pink flower and creates a good contrast to the green background
+
+------
+
+#### Images of Join The Garden page:
 
 ![join-the-garden](./assets/docs/imagege-sign-up.png)
 
 ------
 
 ## Future Implementations
-Planned features include:
+
+Planned features for the future include:
+
 - Farmers calendar for seed planting schedules
 - Contact list for seed trading
-- Link library for additional resources
+- Link library for additional and valuable resources
 
 ------
 
@@ -156,18 +188,27 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Validator Testing
 
+------
+
 #### HTML
   - No errors were returned when passing through the official W3C validator
 
 ![html-validation](./assets/docs/image-4.png)
+
+------
+
 #### CSS
   - No errors were found when passing through the official (Jigsaw) validator
 
 ![css-validation](./assets/docs/image-5.png)
 
+------
+
 #### Speedtesting overview
 
 ![alt text](./assets/docs/image-37.png)
+
+------
 
 ##### Home Speedtesting details
 
@@ -175,8 +216,8 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ------
     
-### Unfixed Bugs
-....mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed....
+### Unfixed Errors & Warnings
+
 
 - Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed.
 
@@ -187,11 +228,14 @@ From line 45, column 7; to line 45, column 28
 -->↩      <section id="gallery">↩    
 
 ------
+
 ### Manual testing
 
 ![manual testing](./assets/docs/image-39.png)
 
 https://docs.google.com/document/d/1GvBAvt2jdHdPX7isx49NbzpCtF8MsiNWt7Qk4x7rd60/edit?usp=sharing
+
+------
 
 ## Deployment
 
@@ -207,6 +251,7 @@ https://josseyo.github.io/Malarpiraterna/
 ------
 
 ## Credits
+
 Special thanks to individuals who contributed to the development of this website:
 - Mentor Rory Sheridan for valuable guidance
 - Classmate Christina for unwavering support
@@ -216,11 +261,13 @@ Special thanks to individuals who contributed to the development of this website
 ------
 
 ### Sources of information
+
 This project drew inspiration from various sources including Code Institute's learning materials, online tutorials, .....
 
 ------
 
 ## Content
+
 - The text for the Home page was taken from SKB.org https://www.skb.org/vara-bostader/innerstaden/fredhall/malarpirater/
 - Instructions how to align page content in HTML https://www.youtube.com/watch?v=uHyf748qbI8&t=18s
 - The icons in the footer were taken from Font Awesome
