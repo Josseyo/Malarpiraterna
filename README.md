@@ -7,15 +7,16 @@
 ------
 ## Mälarpiraternas Trädgård
 
-A membership site for a gardening community.  The garden of the Pirates of Mälaren can  be seen from Snoilskyvägen in Fredhäll, a strolling street by the water where  many passersby admire the lush garden each season. 
-This  is a  HTML/CSS frontend web application project, based on user experience design, accessibility and responsiveness.
+The garden of the Pirates of Mälaren, "Mälarpiraternas Trädgård", is located by a popular strolling street in Kungsholmen Stockholm. Many curious visitors with questions and wishes to join. The answers to these questions can be found on this page. A QR code is placed in the garden to assist in finding the page.
 
-![image](https://github.com/Josseyo/Malarpiraterna/assets/159940877/8793cf30-538d-45b7-b262-092cdf8a83cb)
+This is my PP1 project: A HTML/CSS frontend web application project, based on user experience design, accessibility and responsiveness.
+
+![Responsive views index-home](image-11.png)
 
 ------
 ## Visitor’s goal:
 
-The primary aim of this website is to address common questions  from curious passersby who wish to know more about the garden. Visitors can find information on:
+The primary aim of this website is to address common questions from curious passersby who wish to know more about the garden and perhaps even join. Visitors can find information on:
 
 - History Fun-facts 
 - Who is the garden for
@@ -32,6 +33,19 @@ Our site aims to:
 - Ensure ease of exploration and navigation for users
 
 ------
+## Design
+
+### Colors
+The website's color palette intend to harmonize with the site's natural theme and floral imagery. The dark green is employed in the background to provide a solid foundation to complement the vibrant flower photos. Additionally, the use of black and white ensures strong contrast and enhances the readability of the primary content and naviation. Finally, a touch of pink has been reserved for call-to-action and signup button for added emphasis.
+
+![alt text](image-7.png)
+
+## Fonts
+The google font, Protest Revolution, is used in the h1 logo, to give a hand written text style to match the pirate theme. 
+
+Merriweater is used for body text and headers to match the organic content
+
+
 ## Web Structure
 
 The website consists of three main pages:
@@ -43,7 +57,12 @@ Each page is divided in three components:
 1. Head
 2. Body
 3. Footer
-   
+
+### Wireframes
+
+![alt text](image-27.png)
+  ![alt text](image-28.png)
+  ![alt text](image-29.png)
 ------
 # Features
 
@@ -53,8 +72,13 @@ Each page is divided in three components:
 ## Body:
 
 ### Header with nav bar
+![navbar](image-13.png)
+
+### Footer with contact links
+![footer-views](image-26.png)
+
 The header is the first section of the body.
-The navbar is placed in the header across the web site, to easily navigate from page to page without having to revert back to the previous page via the ‘back’ button.
+The navbar and footer are placed at the top and the bottom on each page across the web site. This to easily navigate from page to page without having to revert back to the previous page via the ‘back’ button.
 
 - Responsive navigation
 - Featured on all three pages
@@ -64,49 +88,34 @@ The navbar is placed in the header across the web site, to easily navigate from 
   - Gallery
   - Contact/Signup form
   Active Link is underlined to clearly show the user which page they are on.
+  -Footer with link to instagram, X (Twitter) and e-mail
+
  
-#### Images of Header with nav bar
-
-Desktop navbar:
-![image](https://github.com/Josseyo/Malarpiraterna/assets/159940877/5e287946-46d6-4f57-9c33-9526c33b4a46)
-
-Mobile navbar 1:
-![image](https://github.com/Josseyo/Malarpiraterna/assets/159940877/1a471270-8d6b-4462-ab9b-d9264f4d9188)
-
-Mobile navbar 2:
-![image](https://github.com/Josseyo/Malarpiraterna/assets/159940877/eca7279d-9ab9-4afb-855a-2c0c86758204)
-
 ------
 
 ### The Hero image
+
+![hero-image](image-16.png)
 The hero image on the hompage shows a purple flower and a bee from the garden. This section introduces the user to Mälarpiraterna garden with an eye catching image 
 with a matching text overlay to grab their attention to the garden’s purpose and its location. 
 
 - Prominent Hero image on the Home page with text overlay for enhanced readability
 - Showcases a captivating view of the garden to engage users
 
-#### Hero image mobile view:
-
-![image](https://github.com/Josseyo/Malarpiraterna/assets/159940877/94ac0ff6-c62e-4d73-a1d1-0380a9f61d9c)
-
 ------
 
 ### Article
+
+![primary-text](image-21.png)
 The article’s section is placed below the Hero section on the home page
 - providing insights into the garden's history, purpose, and benefits
 - providing link to the gallery page
 
-#### Article section Desktop view:
-
-![image](https://github.com/Josseyo/Malarpiraterna/assets/159940877/09c4eb1c-e1a3-4688-a45a-aa7427b4fec6)
-
-#### Article section Mobile view:
-
-
-
 ------
 
 ## Footer
+
+![footer](image-23.png)
 The footer is repeated across the website pages and includes links to social media sites for Mälarpiraterna. The links will open to a new tab to allow easy navigation for the user.
 Contact section in the footer is valuable to the user as it gives them the ability to find the contacts on every page of the site and make it easy to connect with Mälarpiraterna
 The background of the footer is black, the same as the header. This keeps the body content together and creates a clear line between surrounding navigation
@@ -114,26 +123,14 @@ The background of the footer is black, the same as the header. This keeps the bo
 - Positioned at the bottom of each page with links to social media platforms and contact information
 - Black background for consistency and clear separation from the main content
 
-#### Footer section desktop view:
-
-![image](https://github.com/Josseyo/Malarpiraterna/assets/159940877/5ce9f644-e951-40a8-9925-ab6c7b76a16b)
-
-#### Footer section Mobile view:
-
-![image](https://github.com/Josseyo/Malarpiraterna/assets/159940877/f6176bd2-0491-4ee2-b213-5f740d4c1567)
-
 ------
 ### The Gallery page
+
+![gallery-views](image-24.png)
 
 The gallery section is filled with photos from the garden. This section is valuable to the user as they will see an urban garden thriving during the season and encourage the user to consider Mälarpiraternas garden as their form of gardening and join the group
 
 - Features a collection of photos showcasing the garden's beauty and encouraging users to join the gardening community
-
-#### Gallery section desktop view:
-
-![image](https://github.com/Josseyo/Malarpiraterna/assets/159940877/bc3df9e6-919c-4fff-a094-63c99240756a)
-
-#### Gallery section mobile view:
 
 
 ------
@@ -173,13 +170,23 @@ If this section grows too long, you may want to split it off into a separate fil
 ### Validator Testing
 - HTML
   - No errors were returned when passing through the official W3C validator
+
+![html-validation](image-4.png)
 - CSS
   - No errors were found when passing through the official (Jigsaw) validator
- 
-------
+
+![css-validation](image-5.png)------
     
 ### Unfixed Bugs
 ....mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed....
+
+- Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed.
+
+![html-validation-warning](image-6.png)
+
+From line 45, column 7; to line 45, column 28
+
+-->↩      <section id="gallery">↩    
 
 ------
 
