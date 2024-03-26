@@ -60,9 +60,7 @@ Each page is divided in three components:
 
 ### Wireframes
 
-![alt text](image-27.png)
-  ![alt text](image-28.png)
-  ![alt text](image-29.png)
+![wireframes-web](image-30.png)
 ------
 # Features
 
