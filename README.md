@@ -11,7 +11,7 @@ The garden of the Pirates of Mälaren, "Mälarpiraternas Trädgård", is located
 
 This is my PP1 project: A HTML/CSS frontend web application project, based on user experience design, accessibility and responsiveness.
 
-![responsive-views-of-website](image-3.png)
+![responsive-views-of-website](./assets/docs/image-responsive-views.png)
 ------
 ## Visitor’s goal:
 
@@ -119,7 +119,7 @@ The gallery section is filled with photos from the garden. This section is valua
 
 - Features a collection of photos showcasing the garden's beauty and encouraging users to join the gardening community
 
-![gallery-view](image-2.png)
+![gallery-view](./assets/docs/image-gallery.png)
 
 
 ------
@@ -132,7 +132,7 @@ This page will allow the user to sign up for membership in Mälarpiraterna's gar
 - The text fields are mandatory and form can not be submitted unfilled.
 - The text field for email ensures that the filled text is an email-address 
 
-![join-the-garden](image-1.png)
+![join-the-garden](./assets/docs/imagege-sign-up.png)
 
 ------
 
