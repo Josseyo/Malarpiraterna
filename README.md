@@ -212,8 +212,6 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ##### Home Speedtesting details
 
-![gallery-speedtesting](./assets/docs/image-38.png)
-
 ------
     
 ### Unfixed Errors & Warnings
