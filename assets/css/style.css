@@ -153,23 +153,23 @@ main {
     position: relative;
 }
 
-#cover-text {
-    /* Final rgba value sets the opacity so it is semi-transparennt */
 
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    max-height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20rem;
-    margin-bottom: 1rem;
-    padding-top: 5em;
-    padding-bottom: 5em;
-    text-align: center;
-    position: relative;
-    line-height: 14em;
+ #cover-text {
+   /* Final rgba value sets the opacity so it is semi-transparennt */
 
+   background-color: rgba(0, 0, 0, 0.5);
+   width: 100%;
+   max-height: auto;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 15rem;
+   margin-bottom: 2rem;
+   padding-top: 5em;
+   padding-bottom: 5em;
+   text-align: center;
+   position: relative;
 }
+
 
 #article {
     padding-top: 3em;
@@ -285,8 +285,6 @@ h2.hidden {
     padding-bottom: 5em;
     text-align: center;
     position: relative;
-    line-height: 14em;
-
 }
 
 #gallery {
