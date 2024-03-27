@@ -207,6 +207,12 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ------
 
+#### Wave report
+- Same alert on all three pages. The home link in navigation bar is redundent but I keep it since I think it makes it clearer for the user to see the home link in navbar on each page.
+![wave-report](image-1.png)
+
+------
+
 #### Speedtesting overview
 
 ![alt text](./assets/docs/image-37.png)
@@ -215,11 +221,11 @@ If this section grows too long, you may want to split it off into a separate fil
     
 ### Fixed Errors & Warnings
 
-#### Fixed html Validation Warnings
 - Removed trailing slash on void elements
 - To fix Section lack of heading, I added a hidden h2 to the Gallery page
+- Reduced image-size to enhance the speed 
+- Changed image format on photos in gallery to webp
 
-![validation-warnins](./assets/docs/image-2.png)
 ------
 
 ### Manual testing
@@ -241,7 +247,7 @@ Features tested in following browsers:
 
 Chrome - Version 123.0.6312.59 (Officiell version) (x86_64)
 Safari - Version 15.6.1 (17613.3.9.1.16)
-Firefox 
+Firefox - Version 124.0.1 
 
 ------
 
@@ -252,12 +258,16 @@ Firefox
 ------
 
 ## Deployment
+- I have used the cloud development environment Gitpod, to develop the site. 
+- I have installed Gitpod Chrome extension so that I can open a workspace in gitpod directly from github. 
+- The terminal in Gitpod and the code, git add ., git commit -m "", git pull and git push have been used to synch Gitpod code space and Github repository. Gitpod source control has also been used for the same purpose.
 
-Following process has been followed to deploy the project to GitHub pages
-- In the GitHub project repository, go to the Settings tab
+<!--Deployment steps inspired by CI material-->
+The site was deployed to Github pages 
+- In the GitHub project repository, go to Settings
 - Under Code and Automation, go to pages
 - Under Build and deployment, choose to deploy from bransch
-- Under branch, select main
+- Under branch, select main and root
 - Then select save
 - The live website can be found here 
 https://josseyo.github.io/Malarpiraterna/
@@ -266,44 +276,52 @@ https://josseyo.github.io/Malarpiraterna/
 
 ## Credits
 
-Special thanks to individuals who contributed to the development of this website:
+Special thanks to the people who contributed to the development of this website:
 - Mentor Rory Sheridan for valuable guidance
 - Classmate Christina for unwavering support
 - Slackmate Sheryl for positive energy and insights on neurodiversity needs
-- Chrystyna, our class coordinator, for assistance and resources
+- Kristyna, our class coordinator, for assistance and resources
+- Swedish community slack group for prompt responses when needed
 
 ------
 
-### Sources of information
+### Sources of tools and information
 
-This project drew inspiration from various sources including Code Institute's learning materials, online tutorials, .....
-
+- This project drew inspiration from Code Institute's learning materials
+- Instructions how to align page content in HTML https://www.youtube.com/watch?v=uHyf748qbI8&t=18s
+- html tutorials, https://www.w3schools.com/html/default.asp 
+- css tutorials, https://www.w3schools.com/css/default.asp
+- WebP converter, https://tiny-img.com/webp/
+- Photo editor, https://overbits.herokuapp.com/photoeditor
+- Am I responsive? https://ui.dev/amiresponsive?url
+- HTML checker,The W3C Markup Validation, https://validator.w3.org/
+- CSS checker, https://jigsaw.w3.org/css-validator/
+- PageSpeed Insights, https://pagespeed.web.dev/
+- Accessibility validator, https://wave.webaim.org/
+ 
 ------
 
 ## Content
 
 - The text for the Home page was taken from SKB.org https://www.skb.org/vara-bostader/innerstaden/fredhall/malarpirater/
-- Instructions how to align page content in HTML https://www.youtube.com/watch?v=uHyf748qbI8&t=18s
+- Chatgpt has been used to create the paragrap text about the garden on the home page
 - The icons in the footer were taken from Font Awesome
-- Google fonts: Logo in Protest Revolution, text in Merriweather
+- Google fonts: Logo in Protest Revolution, body text in Merriweather
 
 ------
 
 ### Media
 - All photos used on the web page are taken by the author
-- Tiny jpg has been used to resize the photos to fit the web
+
+------
+
+## Mentions
+
+It has been a learning journey, and I have improved along the way; therefore, not all commits are perfectly commented. 
 
 ------
 
 Thank you for visiting Mälarpiraternas Trädgård! 🌿🌼
-
-
-
-**Anything else….?**
-
-I want to tell you this so that I am being completely transparent about the code....but many changes have taken place and I am aware of that there are changes that has not been commented...
-
-
 
 ---
 
