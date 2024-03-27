@@ -219,11 +219,6 @@ main {
 /* Make main contact element take up any surplus space to push footer down */
 
 #contact-form {
-    /*color: whitesmoke;
-    font-size: 1.6rem;
-    background-color: rgba(0, 0, 0, 0.4);
-    margin: 1rem 0 1rem 0;
-    max-width: 375px;*/
     padding: 1.5em 3.2em;
 }
 
