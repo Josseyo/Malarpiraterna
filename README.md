@@ -11,6 +11,8 @@ The garden of the Pirates of Mälaren, "Mälarpiraternas Trädgård", is located
 
 This is my PP1 project: A HTML/CSS frontend web application project, based on user experience design, accessibility and responsiveness.
 
+I live next to the garden, and I frequently respond to inquiries from curious passersby. This inspired me to create a website containing essential information and a sign-up form for individuals interested in becoming part of the garden community.
+
 ![responsive-views-of-website](./assets/docs/image-responsive-views.png)
 
 ------
@@ -19,7 +21,7 @@ This is my PP1 project: A HTML/CSS frontend web application project, based on us
 
 The primary aim of this website is to address common questions from curious passersby who wish to know more about the garden and perhaps even join. Visitors can find information on:
 
-- History Fun-facts 
+- Find information about the garden
 - Who is the garden for
 - How can you join
   
@@ -97,10 +99,11 @@ Email in the footer is valuable to the user as it gives them easy access to our 
 
 ## The home page
 
-![homepage](./assets/docs/image-36.png)
+On the home page, you will find essential information about the garden's purpose and its intended audience. From here, you can proceed to the gallery to view a photo collection from the garden by clicking the link at the end of the paragraph or using the navigation bar at the top. Alternatively, you can directly access the 'Join the Garden' section through the link in the navigation bar. At the bottom of the page, you find links to our contact email and social media channels for easy access to our external platforms."
+
+![homepage-view](./assets/docs/image-homepage.png)
 
 ------
-
 
 ### The Hero image
 
@@ -193,14 +196,14 @@ If this section grows too long, you may want to split it off into a separate fil
 #### HTML
   - No errors were returned when passing through the official W3C validator
 
-![html-validation](image.png)
+![html-validation](./assets/docs/image.png)
 
 ------
 
 #### CSS
   - No errors were found when passing through the official (Jigsaw) validator
 
-![css-validation](./assets/docs/image-5.png)
+![css-validation](./assets/docs/image-css.png)
 
 ------
 
@@ -216,7 +219,7 @@ If this section grows too long, you may want to split it off into a separate fil
 - Removed trailing slash on void elements
 - To fix Section lack of heading, I added a hidden h2 to the Gallery page
 
-![validation-warnins](image-2.png)
+![validation-warnins](./assets/docs/image-2.png)
 ------
 
 ### Manual testing
@@ -245,8 +248,6 @@ Firefox
 #### Feature test protocol
 
 ![manual testing](./assets/docs/image-39.png)
-
-https://docs.google.com/document/d/1GvBAvt2jdHdPX7isx49NbzpCtF8MsiNWt7Qk4x7rd60/edit?usp=sharing
 
 ------
 
