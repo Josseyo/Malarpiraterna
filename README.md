@@ -7,11 +7,11 @@
 ------
 ## Mälarpiraternas Trädgård
 
-The garden of the Pirates of Mälaren, "Mälarpiraternas Trädgård", is located by a popular strolling street in Kungsholmen Stockholm. Many curious visitors with questions and wishes to join. The answers to these questions can be found on this page. A QR code is placed in the garden to assist in finding the page.
-
-This is my PP1 project: A HTML/CSS frontend web application project, based on user experience design, accessibility and responsiveness.
+The garden of the Pirates of Mälaren, "Mälarpiraternas Trädgård", is located by a popular strolling street in Kungsholmen Stockholm. Many curious visitors are stopping by with questions and wishes to join. The answers to these questions can be found on this page. A QR code is placed in the garden to assist in finding the page.
 
 I live next to the garden, and I frequently respond to inquiries from curious passersby. This inspired me to create a website containing essential information and a sign-up form for individuals interested in becoming part of the garden community.
+
+This is my PP1 project: A HTML/CSS frontend web application project, based on user experience design, accessibility and responsiveness.
 
 ![responsive-views-of-website](./assets/docs/image-responsive-views.png)
 
@@ -60,6 +60,7 @@ The website consists of three main pages:
 
 ![wireframes-web](./assets/docs/image-30.png)
 
+#### See details of each page of the website with descriptions in Features below
 ------
 
 # Features
@@ -209,7 +210,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 #### Wave report
 - Same alert on all three pages. The home link in navigation bar is redundent but I keep it since I think it makes it clearer for the user to see the home link in navbar on each page.
-![wave-report](image-1.png)
+![wave-report](./assets/docs/image-wave.png)
 
 ------
 
@@ -261,9 +262,8 @@ Firefox - Version 124.0.1
 - I have used the cloud development environment Gitpod, to develop the site. 
 - I have installed Gitpod Chrome extension so that I can open a workspace in gitpod directly from github. 
 - The terminal in Gitpod and the code, git add ., git commit -m "", git pull and git push have been used to synch Gitpod code space and Github repository. Gitpod source control has also been used for the same purpose.
-
 <!--Deployment steps inspired by CI material-->
-The site was deployed to Github pages 
+- The site was deployed to Github pages by following steps;
 - In the GitHub project repository, go to Settings
 - Under Code and Automation, go to pages
 - Under Build and deployment, choose to deploy from bransch
