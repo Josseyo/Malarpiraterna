@@ -298,35 +298,6 @@ Thank you for visiting Mälarpiraternas Trädgård! 🌿🌼
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Release History
-
-We continually tweak and adjust this website to give the best user experience. Here is the version history:
-
-**Mars 18 2024:** Update 
-
-**September 1 2021:** Remove 
-
-**June 30 2021:** Combined 
-
-**June 10 2021:** Added
-
-**April 7 2021:** Upgraded the template 
-
-
 **Anything else….?**
 
 I want to tell you this so that I am being completely transparent about the code....but many changes have taken place and I am aware of that there are changes that has not been commented...
