@@ -56,11 +56,7 @@ h2 {
     font-size: 2.4rem;
     letter-spacing: 2px;
 }
-/* Hidden heading in Gallery */
 
-h2.hidden {
-    display:none;
-}
 
 p {
     font-weight: 400;
@@ -194,6 +190,11 @@ main {
 
 /* Gallery page */
 
+/* Hidden heading in Gallery */
+
+h2.hidden {
+    display:none;
+}
 #gallery {
     padding-top: 3em;
 }
@@ -271,7 +272,7 @@ main {
 }
 
 #cover-text {
-    /* Final rgba value sets the opacity so it is semi-transparennt */
+    /* Background rgba value sets the opacity so it is semi-transparennt */
 
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
@@ -473,5 +474,3 @@ main {
         column-count: 4;
     }
 }
-
-/*@media screen and (min-width: 1200px) {}
