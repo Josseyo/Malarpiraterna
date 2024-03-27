@@ -193,7 +193,7 @@ If this section grows too long, you may want to split it off into a separate fil
 #### HTML
   - No errors were returned when passing through the official W3C validator
 
-![html-validation](./assets/docs/image-4.png)
+![html-validation](image.png)
 
 ------
 
@@ -209,22 +209,14 @@ If this section grows too long, you may want to split it off into a separate fil
 ![alt text](./assets/docs/image-37.png)
 
 ------
-
-##### Home Speedtesting details
-
-------
     
-### Unfixed Errors & Warnings
+### Fixed Errors & Warnings
 
+#### Fixed html Validation Warnings
+- Removed trailing slash on void elements
+- To fix Section lack of heading, I added a hidden h2 to the Gallery page
 
-- Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed.
-
-![html-validation-warning](./assets/docs/image-6.png)
-
-From line 45, column 7; to line 45, column 28
-
--->↩      <section id="gallery">↩    
-
+![validation-warnins](image-2.png)
 ------
 
 ### Manual testing
@@ -233,10 +225,10 @@ From line 45, column 7; to line 45, column 28
 
 Responsiveness verified on following screen sizes
 
-Desktop - 1600 x 992 px
-Laptop - 1280 x 802 px 
+Mobile – 375 x 667 px
 Tablet - 768 x 1024 px 
-Mobile - 320 x 480 px 
+Laptop - 1280 x 802 px 
+Desktop - 1600 x 992 px
 
 ------
 
