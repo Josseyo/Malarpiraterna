@@ -56,10 +56,10 @@ h2 {
     font-size: 2.6rem;
     letter-spacing: 2px;
 }
+/* Hidden heading in Gallery */
 
-h3 {
-    font-weight: 800;
-    font-size: 1.8rem;
+h2.hidden {
+    display:none;
 }
 
 p {
@@ -293,8 +293,8 @@ main {
 
 }
 
-    #gallery {
-        padding-top: 2em;
+#gallery {
+   padding-top: 2em;
     }
 
     .article {
